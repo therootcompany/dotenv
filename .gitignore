@@ -1,0 +1,11 @@
+.env.*
+.env
+.goreleaser.yml
+
+/dotenv
+dist/
+
+.DS_Store
+.*.sw*
+
+.DS_Store
