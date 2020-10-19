@@ -1,3 +1,7 @@
+# git.rootprojects.org/root/go-gitver/v2 v2.0.2
+## explicit
+git.rootprojects.org/root/go-gitver/v2
+git.rootprojects.org/root/go-gitver/v2/gitver
 # github.com/joho/godotenv v1.3.0
 ## explicit
 github.com/joho/godotenv

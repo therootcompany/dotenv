@@ -25,16 +25,16 @@ curl -A MS https://webinstall.dev/dotenv | powershell
 ## Usage
 
 ```bash
-dotenv v1.0.0 (0000000) 2020-10-20T00:00:00Z
+dotenv v1.0.0 (17c7677) 2020-10-19T23:43:57Z
 
 Usage:
     dotenv [-f .env.alternate] -- <command> [arguments...]"
 
   -f string
     	path to .env file (default ".env")
-  -help
+  --help
     	print usage and exit
-  -version
+  --version
     	print version and exit
 
 Example:
@@ -58,6 +58,7 @@ curl -sS https://webinstall.dev/golang | bash
 ```bash
 export GOFLAGS="-mod=vendor"
 go generate -mod=vendor ./...
+go run -mod=vendor git.rootprojects.org/root/go-gitver/v2
 go build -mod=vendor .
 ```
 
@@ -75,6 +76,10 @@ curl -sS https://webinstall.dev/goreleaser | bash
 
 ```bash
 goreleaser --snapshot --skip-publish --rm-dist
+```
+
+```bash
+./dist/dotenv_darwin_amd64/dotenv --version
 ```
 
 ## License

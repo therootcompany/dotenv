@@ -1,2 +1,4 @@
+git.rootprojects.org/root/go-gitver/v2 v2.0.2 h1:T+Je13wrY1jz4OPJF98HnuCNp6n2Xe2uK6/NNF6a4+0=
+git.rootprojects.org/root/go-gitver/v2 v2.0.2/go.mod h1:ur82M/jZcvr1WWihyVtNEgDBqIjo22o56wcVHeVJFh8=
 github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
