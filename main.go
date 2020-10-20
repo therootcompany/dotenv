@@ -25,7 +25,7 @@ func usage() {
 
 	fmt.Fprintf(os.Stderr, `
 Usage:
-    %s [-f .env.alternate] -- <command> [arguments...]"
+    %s [-f .env.alternate] -- <command> [arguments...]
 
 `, name)
 

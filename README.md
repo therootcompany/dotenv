@@ -28,7 +28,7 @@ curl -A MS https://webinstall.dev/dotenv | powershell
 dotenv v1.0.0 (17c7677) 2020-10-19T23:43:57Z
 
 Usage:
-    dotenv [-f .env.alternate] -- <command> [arguments...]"
+    dotenv [-f .env.alternate] -- <command> [arguments...]
 
   -f string
     	path to .env file (default ".env")
